@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2020-05-15 03:28:51.501195 by randomTrips.py UNKNOWN
+  options: -n map.net.xml -e 48 -l <doubleminus>trip-attributes=departLane="best" departSpeed="max" departPos="random_free" -o trip.trips.xml
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="0" depart="0.00" from="B2B3" to="D1D0" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="1" depart="1.00" from="D1D2" to="C1C2" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="2" depart="2.00" from="C1C0" to="D0C0" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="3" depart="3.00" from="B2B3" to="D1D0" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="4" depart="4.00" from="B1C1" to="C1C0" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="5" depart="5.00" from="C0C1" to="B2C2" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="6" depart="6.00" from="B3A3" to="D2C2" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="7" depart="7.00" from="D0C0" to="C0C1" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="8" depart="8.00" from="C1C2" to="A2A1" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="9" depart="9.00" from="C1B1" to="A3A2" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="10" depart="10.00" from="A3B3" to="A1A2" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="11" depart="11.00" from="B2B1" to="D2D3" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="12" depart="12.00" from="C3D3" to="C2D2" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="13" depart="13.00" from="A3A2" to="C2C1" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="14" depart="14.00" from="D2D1" to="B1C1" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="15" depart="15.00" from="B1B2" to="C2D2" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="16" depart="16.00" from="C2C1" to="C0D0" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="17" depart="17.00" from="D1D0" to="D2D3" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="18" depart="18.00" from="C2D2" to="D3D2" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="19" depart="19.00" from="B2A2" to="B2A2" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="20" depart="20.00" from="C2C1" to="C1D1" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="21" depart="21.00" from="C2C3" to="C0C1" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="22" depart="22.00" from="B2B1" to="B3A3" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="23" depart="23.00" from="D2C2" to="B2B3" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="24" depart="24.00" from="C2C3" to="B2A2" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="25" depart="25.00" from="B2B3" to="C0C1" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="26" depart="26.00" from="B1B2" to="A3B3" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="27" depart="27.00" from="A3A2" to="D1C1" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="28" depart="28.00" from="D3C3" to="D1C1" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="29" depart="29.00" from="C1B1" to="C2B2" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="30" depart="30.00" from="B0C0" to="C0C1" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="31" depart="31.00" from="C1C0" to="B1A1" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="32" depart="32.00" from="B1A1" to="D2D3" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="33" depart="33.00" from="C1B1" to="B0B1" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="34" depart="34.00" from="C1B1" to="A0B0" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="35" depart="35.00" from="D0C0" to="B3C3" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="36" depart="36.00" from="B3A3" to="C2C3" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="37" depart="37.00" from="C1C2" to="D1D2" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="38" depart="38.00" from="D0D1" to="D2D1" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="39" depart="39.00" from="B1A1" to="A2A3" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="40" depart="40.00" from="A1A0" to="A0B0" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="41" depart="41.00" from="A1B1" to="D0D1" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="42" depart="42.00" from="D2D1" to="C1C0" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="43" depart="43.00" from="D1D0" to="A0B0" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="44" depart="44.00" from="C3D3" to="D2D3" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="45" depart="45.00" from="A3B3" to="A2B2" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="46" depart="46.00" from="B1B0" to="B2A2" departLane="best" departSpeed="max" departPos="random_free"/>
+    <trip id="47" depart="47.00" from="A3A2" to="D3C3" departLane="best" departSpeed="max" departPos="random_free"/>
+</routes>

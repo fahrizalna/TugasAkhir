@@ -89,7 +89,8 @@ struct hdr_aodv_request {
         struct nodes_positions_table pt;
         //MODDED-KM//
         //MODDED-BR//
-        double          rq_energy;      
+        double          rq_energy;
+        double          rq_min_energy;      
         //MODDED-BR//
 
   // This define turns on gratuitous replies- see aodv.cc for implementation contributed by

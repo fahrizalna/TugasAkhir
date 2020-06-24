@@ -51,6 +51,7 @@ static int route_request = 0;
 
 //MODDED-BR//
 double avg_energy_node[1000];
+double min_energy_node[1000];
 //MODDED-BR//
 
 /*
@@ -742,24 +743,34 @@ aodv_rt_entry *rt;
  }
 
 //MODDED-BR//
- double avg_energy;
+ double avg_energy, min_energy;
  rq->rq_energy = rq->rq_energy + iEnergy;
+ rq->rq_min_energy = iEnergy;
  avg_energy = rq->rq_energy / (rq->rq_hop_count + 1);
- if (avg_energy < avg_energy_node[index]) {
+ if (rq->rq_min_energy < min_energy_node[index]) {
+  //Packet::free(p);
+  min_energy_node[index] = rq->rq_min_energy; //update minimum energi pada node
+  if (avg_energy < avg_energy_node[index]) {
   FILE *fp;
-  fp = fopen("debug.txt", "a");
-  fprintf(fp, "\n node %d didrop: avg energi: %f", index, avg_energy);
-  fclose(fp);
-  Packet::free(p); //drop paket jika avg energi yang diterima < max avg energi pada node
-  return;
+    fp = fopen("debug.txt", "a");
+    fprintf(fp, "\n node %d didrop: avg energi: %f", index, avg_energy);
+    fclose(fp);
+    Packet::free(p); //drop paket jika avg energi yang diterima < max avg energi pada node
+    return;
  }
  else {
-  FILE *fp;
-  fp = fopen("debug.txt", "a");
-  fprintf(fp, "\n node %d diteruskan: avg energi: %f", index, avg_energy);
-  fclose(fp);
-  avg_energy_node[index] = avg_energy; //update avg energy
+    FILE *fp;
+    fp = fopen("debug.txt", "a");
+    fprintf(fp, "\n node %d diteruskan: avg energi: %f", index, avg_energy);
+    fclose(fp);
+    avg_energy_node[index] = avg_energy; //update avg energy
+  }
  }
+ else {
+  Packet::free(p);
+  return;
+ }
+
 //MODDED-BR//
 
  /*MODDED-KM
